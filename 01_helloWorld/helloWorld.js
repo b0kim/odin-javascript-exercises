@@ -1,5 +1,9 @@
 const helloWorld = function() {
-  return ''
-};
+  return 'Hello, World!';
+}
 
-module.exports = helloWorld;
+const greet = function(person) {
+  return `Hello, ${person}!`;
+}
+
+module.exports = {helloWorld, greet};
